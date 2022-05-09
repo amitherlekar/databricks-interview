@@ -1,0 +1,7 @@
+BASE_URL = 'http://127.0.0.1:5000'
+LOGIN_URL = BASE_URL + '/login'
+LIST_COUNTRIES_URL = BASE_URL + '/countries'
+LIST_CITIES_URL = BASE_URL + '/cities?country={0}'
+ADMIN_URL = BASE_URL + '/analytics/topn?n=4&type=city'
+WEATHER_FORCAST_URL = BASE_URL + '/weather/forecast?city=hubli'
+WEATHER_FORCAST_URL = BASE_URL + '/weather/forecast?city=hubli'
